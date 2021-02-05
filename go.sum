@@ -1,7 +1,7 @@
 github.com/ipfs/go-cid v0.0.1 h1:GBjWPktLnNyX0JiQCNFpUuUSoMw5KMyqrsejHYlILBE=
 github.com/ipfs/go-cid v0.0.1/go.mod h1:GHWU/WuQdMPmIosc4Yn1bcCT7dSeX4lBafM7iqUPQvM=
-github.com/lazyledger/go-multihash v0.0.15-0.20210201232637-a31dec8c92fa h1:H6SVty0Z9EoOD88JXCyCp4gq0RjU5PxdukxCtDi+X7I=
-github.com/lazyledger/go-multihash v0.0.15-0.20210201232637-a31dec8c92fa/go.mod h1:VdAWLKTwram9oKAatUcLxBNUjdtcVwxObEQBtRfuyjc=
+github.com/lazyledger/go-multihash v0.0.15-0.20210205194329-1743be8d8a5b h1:TJGfbX1JtEa14Sag1UBGOx6/QGd0W/r0rFbGxWa7tRM=
+github.com/lazyledger/go-multihash v0.0.15-0.20210205194329-1743be8d8a5b/go.mod h1:VdAWLKTwram9oKAatUcLxBNUjdtcVwxObEQBtRfuyjc=
 github.com/minio/blake2b-simd v0.0.0-20160723061019-3f5f724cb5b1 h1:lYpkrQH5ajf0OXOcUbGjvZxxijuBwbbmlSxLiuofa+g=
 github.com/minio/blake2b-simd v0.0.0-20160723061019-3f5f724cb5b1/go.mod h1:pD8RvIylQ358TN4wwqatJ8rNavkEINozVn9DtGI3dfQ=
 github.com/minio/sha256-simd v0.1.1-0.20190913151208-6de447530771 h1:MHkK1uRtFbVqvAgvWxafZe54+5uBxLluGylDiKgdhwo=
