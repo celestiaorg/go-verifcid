@@ -27,8 +27,6 @@ var goodset = map[uint64]bool{
 	mh.KECCAK_512:   true,
 	mh.ID:           true,
 
-	mh.SHA2_256_NAMESPACE_TAGGED: true, // LazyLedger specific
-
 	mh.SHA1: true, // not really secure but still useful
 }
 
@@ -45,6 +43,12 @@ func IsGoodHash(code uint64) bool {
 		if code >= mh.BLAKE2S_MIN+19 && code <= mh.BLAKE2S_MAX {
 			return true
 		}
+	}
+	// XXX: This has to be on par with what the LazyLedger IPLD plugin registers as a multihash
+	// namely, Sha256Namespace8Flagged. We simply repeat the constant here instead of
+	// importing the corresponding package from lazyledger-core as this would be overkill.
+	if code == 0x7701 {
+		return true
 	}
 
 	return false
