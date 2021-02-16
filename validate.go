@@ -44,8 +44,10 @@ func IsGoodHash(code uint64) bool {
 			return true
 		}
 	}
-
-	return false
+	// XXX: This has to be on par with what the LazyLedger IPLD plugin registers as a multihash
+	// namely, Sha256Namespace8Flagged. We simply repeat the constant here instead of
+	// importing the corresponding package from lazyledger-core as this would be overkill.
+	return code == 0x7701
 }
 
 func ValidateCid(c cid.Cid) error {
